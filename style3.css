@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: aliceblue;
+    height: 100vh;
+}
+#profile{
+    box-shadow: 0px 0px 5px rgba(180, 180, 180, 0.676);
+    border-radius: 50%;
+    width: 150px;
+}
+#verify{
+    width: 40px;
+    position: absolute;
+    bottom: 0.6rem;
+    right:0.1rem;
+}
+#boxprofile{
+    position: relative;
+    display: inline;
+}
+#container{
+    background-color: white;
+    padding: 2REM;
+    border-radius: 10px;
+    width: 40vh;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.157);
+}
+.fa-ellipsis-vertical{
+    display: flex;
+    justify-self: end;
+    font-size: 1.5rem;
+    color:gray;
+}
+#info{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-evenly;
+    .num{
+        font-weight: bold;
+    }
+
+}
+#text{
+    font-size: 0.9rem;
+}
+.social-media{
+    margin-top: 2.5rem;
+    font-size: 1.9rem;
+    display: flex;
+    justify-content: center;
+    gap:1.5rem;
+}
+.fa-facebook{
+    color:#1877F2;
+}
+.fa-twitter{
+    color:#1DA1F2;
+}
+.fa-google-plus{
+    color:#d34836;
+}
+.fa-behance{
+    color:#1769ff;
+}
+button{
+    margin-top: 2.5rem;
+    padding: 10px 60px;
+    background-color: transparent;
+    border-radius: 30px;
+    border-width: 1px;
+    border-color: rgb(198, 193, 193);
+    border-style: solid;
+    color:rgb(94, 92, 92);
+    cursor: pointer;
+    transition: 0.3s;
+}
+button:hover{
+    background-color: gray;
+    color:white;
+}
+
+    
